@@ -1,0 +1,87 @@
+/**************************
+CSS for BT Web Preview
+***************************/	
+
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	}
+	
+	.false-content {
+		position:absolute;
+		left:0px;
+		top:0px;
+		z-index:-1;
+	}
+	
+	.story-content {
+		position: absolute; 
+		top: 300px; 
+		left: 160px; 
+		width: 615px; 
+		border-bottom-style:dashed;
+		border-width:2x;
+		border-color:#666666;		
+	}
+		
+	div.PHOTO {
+		float:left;
+		width: 300px; 
+		height: 200px;
+		margin-top: 20px;
+		margin-right: 20px;	
+	}
+		
+	div.CAPTION {
+		float:left;
+		clear:both; /*needed for text to wrap image and caption for IE*/
+		width:300px;
+		margin-right:20px;
+		border-bottom-style:dotted; /*bottom border*/
+		border-width:1px;
+		border-color:#666666;
+	}
+	
+	div.TEXT {
+		margin-top: 15px;	
+		border-top-style:dotted;
+		border-width:1px;
+		border-color:#666666;	
+	}
+	
+	.PHOTO img {
+		width: 300px; 
+		height: 200px;	
+	}
+		
+ 	p {
+		line-height: 1.6;
+	}
+	
+	.HEADLINE p {  /*story headline*/
+		font-size:24px;
+		font-weight:bold;
+		padding-top:5px;
+		line-height:normal;
+		word-wrap:break-word;
+		margin-top: 10px;
+		margin-bottom: 8px
+	} 	
+	
+	.SUMMARY p {  /*story summary*/
+		font-size:16px; 
+		font-weight:bold; 
+		line-height:normal; 
+		word-wrap:break-word;
+		margin-top:0px
+	}
+	
+	.CAPTION p { /*story caption*/
+		color:#666666;
+		font-size:12px;
+		height:auto;
+		padding-top:5px;
+		word-wrap:break-word;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}

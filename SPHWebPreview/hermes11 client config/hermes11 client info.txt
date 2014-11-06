@@ -1,0 +1,23 @@
+- need to modify the following on the client machine:
+
+C:\hermes11\conf\production\productionmenu.properties
+C:\hermes11\conf\production\productiontext.properties
+
+------------------------------------------
+
+productionmenu.properties:
+
+custom=viewXml ftp webPreview
+
+
+------------------------------------------
+
+productiontext.properties
+
+#Custom action: web Preview
+webPreviewLabel=Web Preview
+webPreviewTooltip=Web Preview
+webPreviewAction=custom-action
+webPreviewCommand=http://hermes11:8080/SPHWebPreview/index.jsp
+webPreviewMnemonic=W
+webPreviewAccelerator=ctrl alt W

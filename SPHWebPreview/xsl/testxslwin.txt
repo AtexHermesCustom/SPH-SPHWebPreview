@@ -1,0 +1,10 @@
+java -classpath "c:\saxon\saxon8.jar" net.sf.saxon.Transform -o C:\SPH_H11\jboss_deploy\simplexslt.war\test\xslt.log C:\SPH_H11\jboss_deploy\simplexslt.war\test\9508.xml C:\SPH_H11\jboss_deploy\simplexslt.war\xsl\sp.xsl
+java -classpath "c:\saxon\saxon8.jar" net.sf.saxon.Transform -o C:\SPH_H11\jboss_deploy\simplexslt.war\test\xslt.html C:\SPH_H11\jboss_deploy\simplexslt.war\test\4768.xml C:\SPH_H11\jboss_deploy\simplexslt.war\xsl\sp.xsl
+
+java -classpath "c:\saxon\saxon8.jar" net.sf.saxon.Transform -o C:\SPH_H11\jboss_deploy\xmltest.war\work\xslt.html C:\SPH_H11\jboss_deploy\xmltest.war\work\9850-out-xhtml-nested-as-xml.xml C:\SPH_H11\jboss_deploy\xmltest.war\xsl\sp.xsl
+
+
+
+
+sample Weather xsl
+java -classpath "c:\saxon\saxon8.jar" net.sf.saxon.Transform -o C:\SPH_H11\jboss_deploy\simplexslt.war\test\xslt.log C:\SPH_H11\jboss_deploy\simplexslt.war\test\weather.xml C:\SPH_H11\jboss_deploy\simplexslt.war\xsl\weather.xsl
